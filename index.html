@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundslerk</title>
+    <script src="https://use.fontawesome.com/0956a1a561.js"></script>
+</head> 
+
+<script type="text/javascript">
+    function startTime()
+    {
+    var tm=new Date();
+    var h=tm.getHours();
+    var m=tm.getMinutes();
+    var s=tm.getSeconds();
+    m=checkTime(m);
+    s=checkTime(s);
+    document.getElementById('timer').innerHTML=h+":"+m+":"+s;
+    t=setTimeout('startTime()',500);
+    }
+    function checkTime(i)
+    {
+    if (i < 10)
+    {
+    i="0" + i;
+    }
+    return i;
+    }
+    </script>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">Fundslerk</div>
+                <body onload="startTime()">
+                    <div class="header__timer" id="timer"></div>
+                    </body>
+
+                <nav class="nav">
+                    <a class="nav__link" href="https://vk.com/rakltv" target="_blank">About</a>
+                    <a class="nav__link" href="https://vk.com/rakltv" target="_blank">Service</a>
+                    <a class="nav__link" href="https://vk.com/rakltv" target="_blank">Blog</a>
+                    <a class="nav__link" href="https://vk.com/rakltv" target="_blank">Work</a>
+                    <a class="nav__link" href="https://vk.com/rakltv" target="_blank">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<div class="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h2 class="intro__suptitle"> Kreative thinking</h2>
+        <h1 class="intro__title">Welcome to Fundslerk</h1>
+
+        <a class="btn" href="https://vk.com/rakltv" target="_blank">Learn More</a>
+        </div>
+    </div>
+</div>
+
+
+<section class="section">
+    <div class="container">
+
+        <div class="section__header">
+            <h3 class="section__suptitle">Что мы делаем</h3>
+            <h2 class="section__title">История о нас</h2>
+            <div class="section__text">
+                    <p>Наша компания по разработке компьютерного оборудования возникла в 1990 году и процветает по сей день</p>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="about__item">
+                <div class="about__img">
+                    <img src="assets/images/item1.jpg" alt="">
+                </div>
+                <div class="about__text">team</div>
+            </div>
+
+            <div class="about__item">
+                <div class="about__img">
+                    <img src="assets/images/item2.jpg" alt="">
+                </div>
+                <div class="about__text">work</div>
+            </div>
+
+            <div class="about__item">
+                <div class="about__img">
+                    <img src="assets/images/item3.jpg" alt="">
+                </div>
+                <div class="about__text">product</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="statistics">
+    <div class="conteiner">
+        <div class="stat">
+            <div class="stat__item">
+                <div class="stat__count">67</div>
+                <div class="stat__text">Проектов</div>
+            </div>
+            <div class="stat__item">
+                <div class="stat__count">358</div>
+            <div class="stat__text">Довольных клиентов</div>
+        </div>
+            <div class="stat__item">
+                <div class="stat__count">15</div>
+                <div class="stat__text">Наград</div>
+            </div>
+            <div class="stat__item">
+                <div class="stat__count">159</div>
+                <div class="stat__text">Чашек кофе</div>
+            </div>
+            <div class="stat__item">
+                <div class="stat__count">100</div>
+                <div class="stat__text">Сотрудников</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<section class="section">
+    <div class="container">
+
+        <div class="section__header">
+            <h3 class="section__suptitle">Мы работаем с</h3>
+            <h2 class="section__title">Удивительными решениями</h2>
+        </div>
+
+        <div class="services">
+            <div class="sevices__item">
+                <img class="services__icon" src="assets/images/Icons/1.jpg" alt="">
+                <div class="services__title">Быстрое время работы</div>
+                <div class="services__text">До 5-ти рабочих дней</div>
+            </div>
+            <div class="sevices__item">
+                <img class="services__icon" src="assets/images/Icons/2.jpg" alt="">
+                <div class="services__title">Уникальный дизайн</div>
+                <div class="services__text">Мы собрали лучших дизайнеров</div>
+            </div>
+            <div class="sevices__item">
+                <img class="services__icon" src="assets/images/Icons/3.jpg" alt="">
+                <div class="services__title">Честные отзывы</div>
+                <div class="services__text">И никакой воды</div>
+            </div>
+        </div>
+        <hr>
+        <div class="services">
+            <div class="sevices__item">
+                <img class="services__icon" src="assets/images/Icons/4.jpg" alt="">
+                <div class="services__title">Быстрая поддержка</div>
+                <div class="services__text">Ответ в течении 4-х минут</div>
+            </div>
+            <div class="sevices__item">
+                <img class="services__icon" src="assets/images/Icons/5.jpg" alt="">
+                <div class="services__title">Удобство</div>
+                <div class="services__text">Комфорт</div>
+            </div>
+            <div class="sevices__item">
+                <img class="services__icon" src="assets/images/Icons/6.jpg" alt="">
+                <div class="services__title">Качество</div>
+                <div class="services__text">На высшем уровне</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section  section--devices">
+    <div class="container">
+
+        <div class="section__header">
+            <h3 class="section__suptitle">Для всех девайсов</h3>
+            <h2 class="section__title">Уникальный дизайн</h2>
+        </div>
+
+        <div class="devices">
+
+        <img class="devices__item" src="assets/images/device/1.png" alt="">
+    </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="section__header">
+            <h3 class="section__suptitle">Сервис</h3>
+            <h2 class="section__title">Что мы делаем</h2>
+            <div class="section__text">
+                <p>Генерируем прорывные идеи</p>
+            </div>
+        </div>
+        <div class="wedo">
+            <div class="wedo__item">
+                <img src="assets/images/wedo/1.jpg" alt="">
+            </div>
+            <div class="wedo__item">
+                <div class="accordion">
+                    <div class="accordion__item">
+                        <div class="accordion__header">
+                            <img class="accordion__icon" src="assets/images/wedo/i1.jpg" alt="">
+                            <div class="accordion__title">Photography</div>
+                        </div>
+                        <div class="accordion__content">
+                            <p>Генерируем прорывные идеи</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item activ">
+                        <div class="accordion__header">
+                            <img class="accordion__icon" src="assets/images/wedo/i2.jpg" alt="">
+                            <div class="accordion__title">Creativity</div>
+                        </div>
+                        <div class="accordion__content">
+                            <p>Генерируем прорывные идеи</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <div class="accordion__header">
+                            <img class="accordion__icon" src="assets/images/wedo/i3.jpg" alt="">
+                            <div class="accordion__title">Activ</div>
+                        </div>
+                        <div class="accordion__content">
+                            <p>Генерируем прорывные идеи</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="section  section--map">
+    <div class="container">
+        <div class="map"></div>
+            <h2 class="map__title">
+                <div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <a href="https://goo.gl/maps/MRPqxhRQYtuPzZMH7" target="_blank">Open Map</a>
+            </h2>
+    </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+            
+            <div class="footer__logo">Fundslerk</div>
+            <div class="footer__text">These fonts are licensed under the Open Font License.
+
+                You can use them freely in your products & projects - print or digital, commercial or otherwise. However, you can't sell the fonts on their own.
+                
+                This isn't legal advice, please consider consulting a lawyer and see the full license for all details.</div>
+
+            <div class="footer__social">
+                <div class="footer_social-header">
+                    <b>150k</b> followers
+                </div>
+                <div class="footer_social-content">
+                    Follow Us:
+                    <a href="#" target="_blank">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fa fa-telegram" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fa fa-vk" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            
+            
+
+        </div>
+        <div class="copyright">
+            © 2021 Fundslerk by <span> Khomyakov Konstantin C7119</span>
+        </div>
+        
+
+    </div>
+</footer>
+
+
+</body>
+</html>
